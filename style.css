@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --background-color: #22212C;
+  --box-color: #302F3D;
+  --text-color: #837E9F;
+  --highlight-color: #00FF00;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: 'Merriweather Sans', sans-serif;
+  color: var(--text-color);
+  padding: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  gap: 60px;
+}
+
+div.sidebar {
+  width: 100%;
+  max-width: 350px;
+}
+
+div.box-template {
+  background-color: var(--box-color);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+  margin-bottom:30px;
+  padding: 30px 20px;
+}
+div.box-template h2 + ul {
+  margin-top: 20px;
+}
+
+div#profile {
+  text-align: center;
+}
+
+div#profile img {
+  width: 128px;
+  height: 128px;
+  border: 2px solid var(--highlight-color);
+  border-radius: 100%;
+}
+
+div#profile h1 {
+  font-size: 23px;
+  margin: 30px auto 10px;
+}
+div#profile h4 {
+  font-weight: 300;
+}
+
+div#links ul {
+  margin-left: 20px;
+}
+div#links ul li {
+  vertical-align: middle;
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+div#links ul li:last-child {
+  margin-bottom: 0;
+}
+
+div#technologies ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+div#technologies ul li {
+  background-color: #CB92B1;
+  color: #000;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 100px;
+  padding: 5px 10px;
+}
+
+div#experiences ul,
+div#education ul {
+  margin-left: 40px
+}
+div#experiences ul li,
+div#education ul li {
+  list-style: disc;
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+div#experiences ul li:last-child,
+div#education ul li:last-child {
+  margin-bottom: 0;
+}
+div#experiences ul li strong,
+div#education ul li strong {
+  font-size: 14px;
+}
+
+.content {
+  width: 100%;
+}
+
+div#my-projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div#my-projects p {
+  font-size: 14px;
+}
+
+div#projects {
+  display: flex;
+  gap: 30px;
+}
+
+div#projects .project {
+  width: 100%;
+}
+
+div#projects .project-title {
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+div#projects p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+div#projects .project-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div#projects .project-status div {
+  display: flex;
+  gap: 16px;
+}
+
+div#projects .project-status div span {
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+div#posts {
+  display: flex;
+}
+
+div#post-inside {
+  display: flex;
+}
+
+div#posts img {
+  width: 128px;
+  height: 128px;
+  border: 0px;
+  border-radius: 100%;
+}
+
+div#posts .post-1 {
+  margin-bottom: 20px;
+}
+
+div#posts .post-1 p {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: bold;
+  margin-left: 20px;
+}
+
+div#posts .post-1 h4 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+div#posts .post-2 p {
+  font-size: 16px;
+  margin-left: 20px ;
+}
+
+div#posts li {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-top: 10px;
+  gap: 10px;
+}
