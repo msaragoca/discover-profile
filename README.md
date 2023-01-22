@@ -18,7 +18,7 @@ Esse desafio foi feito através o programa DISCOVER da Rockeatseat. <br/>
 <br>
 
 <p align="center">
-  <img alt="desafio profile" src=".github/preview.jpg" width="100%">
+  <img alt="desafio profile" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto PROFILE foi feito com objetivo de criar um landing page com os dados do perfil de uma pessoa.
+O projeto PROFILE foi feito com objetivo de criar uma landing page com os dados do perfil de uma pessoa.
 
 - [Visite o projeto online](https://msaragoca.github.io/discover-profile)
 
